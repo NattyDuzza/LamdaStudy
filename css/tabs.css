@@ -1,0 +1,43 @@
+#body .tab-nav-button {
+    border-width: 1px 1px 1px 1px !important;
+    border-color: #3f3f3f !important;
+    border-radius: 4px 4px 0 0 !important;
+    background-color: #5f5f5f !important;
+    float: left;
+    display: block;
+    position: relative;
+    margin-left: 4px;
+    bottom: -1px;
+}
+#body .tab-nav-button:first-child {
+    margin-left: 0px;
+}
+#body .tab-nav-button.active {
+    background-color: #505050 !important;
+    border-bottom-color: #797979 !important;
+}
+
+#body .tab-panel {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#body .tab-content {
+    display: block;
+    clear: both;
+    padding: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+#body .tab-content .tab-item{
+    display: none;
+}
+
+#body .tab-content .tab-item.active{
+    display: block;
+}
+
+#body .tab-item pre{
+    margin-bottom: 0;
+    margin-top: 0;
+}
